@@ -1,34 +1,22 @@
 os: windows
 os: linux
-title: /Thunderbird/
+title: /pgadmin/
+app:Firefox
 -
 
 # navigation
-meecount:
-	key(alt-home alt-g O down right)
-	key(enter)
-	key(ctrl-k tab tab)
-	
-feecount:
-	key(alt-home alt-g O down right down)
-	key(enter)
-	key(ctrl-k tab tab)
-	key(end)
+file menu: key(alt-shift-i)
+tools menu: key(alt-shift-l)
+object menu: key(alt-shift-o)
+help menu: key(alt-shift-h)
+query tool:key(alt-shift-q) 
+browser three:key(alt-shift-r) 
+next tab:key(alt-shift-y)
+previous tab:key(alt-shift-w)
+context menu:key(alt-shift-c)
 
-folder list: key(ctrl-k tab)
-message list: key(ctrl-k tab tab)
-doon: key(ctrl-k tab tab f6)
- 
-# threads
-collapse: key(right)
-expand: key(left)
-expand all:key(*)
-collapse all:key(\)
-
-# tabs
-close tab:key("ctrl-w")
-next tab:key("ctrl-tab")
-previous tab:key("ctrl-shift-tab")
-action(app.tab_next):key("ctrl-tab")	
-action(app.tab_previous):key("ctrl-shift-tab")	
-action(app.tab_close):key("ctrl-w")	
+# editor 
+line end:key(alt-right)
+line start:key(alt-left)
+word next:key(ctrl-alt-right)
+word previous:key(ctrl-alt-left)
