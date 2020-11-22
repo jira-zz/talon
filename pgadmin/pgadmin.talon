@@ -1,14 +1,14 @@
 os: windows
 os: linux
-title: /pgadmin/
-app:Firefox
+title: /pgAdmin/
+app:firefox
 -
 
 # navigation
-file menu: key(alt-shift-i)
+(fee|file) menu: key(alt-shift-i)
 tools menu: key(alt-shift-l)
 object menu: key(alt-shift-o)
-help menu: key(alt-shift-h)
+(heal|help) menu: key(ctrl-alt-shift-i)
 query tool:key(alt-shift-q) 
 browser three:key(alt-shift-r) 
 next tab:key(alt-shift-y)
