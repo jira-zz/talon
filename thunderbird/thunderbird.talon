@@ -20,8 +20,8 @@ message list: key(ctrl-k tab tab)
 doon: key(ctrl-k tab tab f6)
  
 # threads
-collapse: key(right)
-expand: key(left)
+collapse: key(left)
+expand: key(right)
 expand all:key(*)
 collapse all:key(\)
 
@@ -29,6 +29,6 @@ collapse all:key(\)
 close tab:key("ctrl-w")
 next tab:key("ctrl-tab")
 previous tab:key("ctrl-shift-tab")
-action(app.tab_next):key("ctrl-tab")	
+ction(app.tab_next):key("ctrl-tab")	
 action(app.tab_previous):key("ctrl-shift-tab")	
 action(app.tab_close):key("ctrl-w")	
