@@ -6,10 +6,10 @@ app:firefox
 
 # navigation
 (fee|file) menu: key(alt-shift-i)
-tools menu: key(alt-shift-l)
+(two|tools) menu: key(alt-shift-l)
 object menu: key(alt-shift-o)
 (heal|help) menu: key(ctrl-alt-shift-i)
-query tool:key(alt-shift-q) 
+(Q|query) tool:key(alt-shift-q) 
 browser three:key(alt-shift-r) 
 next tab:key(alt-shift-y)
 previous tab:key(alt-shift-w)
