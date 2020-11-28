@@ -8,6 +8,7 @@ meecount:
 	key(alt-home alt-g O down right)
 	key(enter)
 	key(ctrl-k tab tab)
+	key(end)
 	
 feecount:
 	key(alt-home alt-g O down right down)
