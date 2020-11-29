@@ -35,3 +35,5 @@ fold make|make folder:key("f7")
 fold list:key("ctrl-d")
 fold left:key("alt-f1")
 fold right:key("alt-f2")
+
+prompt here:key("ctrl-alt-p")
