@@ -26,8 +26,9 @@ expand: key(right)
 expand all:key(*)
 collapse all:key(\)
 watch:key(w)
+select set:key(ctrl-alt-a)
 
-(star|start) message:keep(s)
+(star|start) message:key(s)
 
 # tabs
 close tab:key("ctrl-w")
