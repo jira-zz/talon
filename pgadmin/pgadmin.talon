@@ -1,7 +1,6 @@
 os: windows
 os: linux
 title: /pgAdmin/
-app:firefox
 -
 
 # navigation
