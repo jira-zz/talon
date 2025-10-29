@@ -5,7 +5,10 @@ title: /Total Commander/
 
 tag(): user.tabs
 
+file search:key(alt-s)
+
 # file operations
+file list: key(f3)
 file edit: key("f4")
 file copy: key("f5")
 file move: key("f6")  
