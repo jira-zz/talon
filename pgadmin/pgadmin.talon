@@ -2,6 +2,7 @@ os: windows
 os: linux
 title: /pgAdmin/
 -
+tag(): user.sql
 
 # navigation
 (fee|file) menu: key(alt-shift-i)
