@@ -3,30 +3,18 @@ os: linux
 title: /Thunderbird/
 -
 
-# navigation
-meecount:
-	key(alt-home alt-g O down right)
-	key(enter)
-	key(ctrl-k tab tab)
-	key(end)
-	
-feecount:
-	key(alt-home alt-g O down right down)
-	key(enter)
-	key(ctrl-k tab tab)
-	key(end)
+settings():
+  key_hold = 50
 
-folder list: key(ctrl-k tab)
-message list: key(ctrl-k tab tab)
-doon: key(ctrl-k tab tab f6)
- 
-# threads
-collapse: key(left)
-expand: key(right)
-expand all:key(*)
-collapse all:key(\)
-watch:key(w)
-select set:key(ctrl-alt-a)
+tree: 
+  key(alt-g shift-o)
+
+go personal: 
+  key(alt-g o up:2 enter down enter)
+
+go work: 
+  key(alt-g o up:3 enter down enter enter)
+
 
 (star|start) message:key(s)
 
