@@ -1,8 +1,9 @@
 os: windows
 os: linux
 title: /Thunderbird/
-tag():user.tabs
 -
+
+tag():user.tabs
 
 settings():
   key_hold = 50
