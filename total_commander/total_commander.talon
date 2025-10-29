@@ -3,6 +3,8 @@ os: linux
 title: /Total Commander/
 -
 
+tag(): user.tabs
+
 # file operations
 file edit: key("f4")
 file copy: key("f5")
@@ -16,10 +18,10 @@ sort by date:key("ctrl-f5")
 sort by name:key("ctrl-f3")
 
 #tabs
-new tab:key("ctrl-t")
-close tab:key("ctrl-w")
-next tab:key("ctrl-tab")
-previous tab:key("ctrl-shift-tab")
+tab new: key("ctrl-t")
+tab close: key("ctrl-w")
+tab next:key("ctrl-tab")
+tab previous: key("ctrl-shift-tab")
 action(app.tab_open):key("ctrl-t")	
 action(app.tab_next):key("ctrl-tab")	
 action(app.tab_previous):key("ctrl-shift-tab")	
