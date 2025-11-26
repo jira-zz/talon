@@ -17,4 +17,8 @@ tab close: key(alt-shift-w)
 statement join: insert("inner join")
 join <user.text>$: insert("inner join {text}")
 fields materials: insert ("filename,materialid")
-fields papers: insert ("papername,country")
+fields papers insert ("papername,country")
+
+# query tool
+run query: key(f5)
+save results: key(f8)
