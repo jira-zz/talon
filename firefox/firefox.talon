@@ -2,5 +2,6 @@ app: firefox
 -
 tab down: key(K)
 tab up: key(J)
-cont right: key(alt-right)
-cont left: key(alt-left)
+conty right: key(alt-right)
+conty left: key(alt-left)
+conty numb <number_small>$: key('alt-{number_small}')

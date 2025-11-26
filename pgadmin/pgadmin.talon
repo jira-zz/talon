@@ -12,3 +12,7 @@ tab close: key(alt-shift-w)
 
 # navigation
 (Q|query) tool:key(alt-shift-q) 
+
+# sql
+statement join: insert("inner join")
+join <user.text>$: insert("inner join {text}")
