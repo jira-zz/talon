@@ -16,3 +16,5 @@ tab close: key(alt-shift-w)
 # sql
 statement join: insert("inner join")
 join <user.text>$: insert("inner join {text}")
+fields materials: insert ("filename,materialid")
+fields papers: insert ("papername,country")
