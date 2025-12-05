@@ -9,18 +9,21 @@ night run root: insert("sudo mc\n")
 night up: key(left)
 night down: key(right)
 night search: key(alt-s)
-much window next:
-     key(ctrl-a)
-     key(n)
 
 much window previous:
-     key(ctrl-a)
+     key(ctrl-b)
      key(p)
 
 fold list: key(alt-/)
 go bottom: key(pagedown)
 
 # tmux
+much window next:
+     key(ctrl-b)
+     key(n)
+much window previous:
+     key(ctrl-b)
+     key(p)
 much window new: key(ctrl-b-c)
 much window close: key(ctrl-b-&)
 much detach: key(ctrl-b-d)
