@@ -6,7 +6,6 @@ settings():
 # Midnight Commander
 night run: insert("mc\n")
 night run root: insert("sudo mc\n")
-sudo: insert("sudo ")
 night up: key(left)
 night down: key(right)
 night search: key(alt-s)
@@ -22,10 +21,10 @@ fold list: key(alt-/)
 go bottom: key(pagedown)
 
 # tmux
-much window new: key(ctrl-a-c)
-much window close: key(ctrl-a-&)
-much detach: key(ctrl-a-d)
-much window numb <number_small>$: key('ctrl-a-{number_small}')
+much window new: key(ctrl-b-c)
+much window close: key(ctrl-b-&)
+much detach: key(ctrl-b-d)
+much window numb <number_small>$: key('ctrl-b-{number_small}')
 
 # pager
 page next: key(space)
@@ -39,3 +38,7 @@ search previous: key(shift-n)
 go root: insert("cd /\n")
 go home: insert("cd ~\n")
 go bottom: key(pagedown)
+
+show log post: insert("less /var/log/pgsql\n")
+
+sudo: insert("sudo ")
