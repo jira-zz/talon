@@ -1,3 +1,3 @@
-deck(pedal_left): mouse_click(1)
-deck(pedal_right):key(enter)
+deck(pedal_left): edit.copy()
+deck(pedal_right): edit.paste()
 deck(pedal_middle): mouse_click(0)
