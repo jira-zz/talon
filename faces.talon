@@ -1,2 +1,1 @@
-face(smile): edit.copy()
-face(jaw_open): edit.paste()
+#face(smile): edit.copy()
