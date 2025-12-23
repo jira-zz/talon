@@ -21,9 +21,7 @@ go bottom: key(pagedown)
 much window next:
      key(ctrl-b)
      key(n)
-much window previous:
-     key(ctrl-b)
-     key(p)
+     
 much window new: key(ctrl-b-c)
 much window close: key(ctrl-b-&)
 much detach: key(ctrl-b-d)
