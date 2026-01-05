@@ -10,10 +10,6 @@ night up: key(left)
 night down: key(right)
 night search: key(alt-s)
 
-much window previous:
-     key(ctrl-b)
-     key(p)
-
 fold list: key(alt-/)
 go bottom: key(pagedown)
 
@@ -21,6 +17,10 @@ go bottom: key(pagedown)
 much window next:
      key(ctrl-b)
      key(n)
+     
+much window previous:
+     key(ctrl-b)
+     key(p)     
      
 much window new: key(ctrl-b-c)
 much window close: key(ctrl-b-&)
