@@ -23,6 +23,9 @@ fields papers: insert ("papername,country")
 
 from authorsNames: insert ("from authorsNames\ninner join authors on authors.authorid = authorsNames.authorid")
 
+select all: insert("select  ")
+select count: insert("select count(*) ")
+
 # query tool
 run query: key(f5)
 save results: key(f8)
