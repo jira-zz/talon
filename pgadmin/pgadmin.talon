@@ -19,7 +19,7 @@ join <user.text>$: insert("inner join {text}")
 fields authors: insert ("fname,mname,sname,authorid") 
 
 fields materials: insert ("filename,materialid")
-fields papers insert ("papername,country")
+fields papers: insert ("papername,country")
 
 from authorsNames: insert ("from authorsNames\ninner join authors on authors.authorid = authorsNames.authorid")
 
