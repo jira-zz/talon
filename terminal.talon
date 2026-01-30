@@ -10,7 +10,7 @@ night up: key(left)
 night down: key(right)
 night search: key(alt-s)
 
-fold list: key(ctrl-/)
+fold list: key(ctrl-\)
 go bottom: key(pagedown)
 
 # tmux
