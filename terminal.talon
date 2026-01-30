@@ -34,10 +34,10 @@ much window numb <number_small>$: key('ctrl-b-{number_small}')
 # pager
 page next: key(space)
 page previous: key(ctrl-b)
-line bottom: key(G)
+page line bottom: key(G)
 page search: key(/)
-search next: key(n)
-search previous: key(shift-n)
+page search next: key(n)
+page search previous: key(shift-n)
 
 # navigation
 go root: insert("cd /\n")
