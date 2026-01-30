@@ -13,6 +13,10 @@ night search: key(alt-s)
 fold list: key(ctrl-\)
 go bottom: key(pagedown)
 
+file list: key(f3)
+edit file: key(f4)
+copy file: key(f5)
+
 # tmux
 much window next:
      key(ctrl-b)
