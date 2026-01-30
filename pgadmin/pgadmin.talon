@@ -14,8 +14,8 @@ tab close: key(alt-shift-w)
 (Q|query) tool:key(alt-shift-q) 
 
 # sql
-statement join: insert("inner join")
-join <user.text>$: insert("inner join {text}")
+statement join: insert("inner join ")
+join <user.text>$: insert("inner join {text} using()")
 fields authors: insert ("fname,mname,sname,authorid") 
 
 fields materials: insert ("filename,materialid")
