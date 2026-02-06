@@ -65,3 +65,8 @@ docker start <user.text>$: insert("docker start {text}")
 docker restart <user.text>$: insert("docker restart {text}")
 docker remove <user.text>$: insert("docker rm {text}")
 docker remove image <user.text>$: insert("docker rmi {text}^sheet, sheet")
+
+# terraform
+terraform init: insert("terraform init")
+terraform apply: insert("terraform apply")
+terraform plan: insert("terraform plan")
