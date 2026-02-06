@@ -14,8 +14,8 @@ fold list: key(ctrl-\)
 go bottom: key(pagedown)
 
 file list: key(f3)
-edit file: key(f4)
-copy file: key(f5)
+file edit: key(f4)
+file copy: key(f5)
 
 # tmux
 much window next:
@@ -64,4 +64,4 @@ docker stop <user.text>$: insert("docker stop {text}")
 docker start <user.text>$: insert("docker start {text}")
 docker restart <user.text>$: insert("docker restart {text}")
 docker remove <user.text>$: insert("docker rm {text}")
-docker remove image <user.text>$: insert("docker rmi {text}")
+docker remove image <user.text>$: insert("docker rmi {text}^sheet, sheet")
