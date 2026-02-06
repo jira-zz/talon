@@ -67,6 +67,6 @@ docker remove <user.text>$: insert("docker rm {text}")
 docker remove image <user.text>$: insert("docker rmi {text}^sheet, sheet")
 
 # terraform
-terraform init: insert("terraform init")
-terraform apply: insert("terraform apply")
-terraform plan: insert("terraform plan")
+tear init: insert("terraform init")
+tear apply: insert("terraform apply")
+tear plan: insert("terraform plan")
