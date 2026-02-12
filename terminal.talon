@@ -70,3 +70,8 @@ docker remove image <user.text>$: insert("docker rmi {text}^sheet, sheet")
 tear init: insert("terraform init")
 tear apply: insert("terraform apply")
 tear plan: insert("terraform plan")
+
+# shell history
+history search: key(ctrl-r)
+history last: key(up)
+
