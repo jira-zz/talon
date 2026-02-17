@@ -64,7 +64,7 @@ docker stop <user.text>$: insert("docker stop {text}")
 docker start <user.text>$: insert("docker start {text}")
 docker restart <user.text>$: insert("docker restart {text}")
 docker remove <user.text>$: insert("docker rm {text}")
-docker remove image <user.text>$: insert("docker rmi {text}^sheet, sheet")
+docker remove image <user.text>$: insert("docker rmi {text}")
 
 # terraform
 tear init: insert("terraform init")
