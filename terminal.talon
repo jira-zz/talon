@@ -80,4 +80,6 @@ nope install: insert("npm install")
 nope start: insert("npm start")
 nope test: insert("npm run test")
 nope build: insert("npm run build")
+nope development: insert("npm run dev")
+
 
