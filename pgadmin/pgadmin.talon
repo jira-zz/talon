@@ -23,7 +23,7 @@ fields papers: insert ("papername,country")
 
 from authorsNames: insert ("from authorsNames\ninner join authors on authors.authorid = authorsNames.authorid")
 
-select all: insert("select  ")
+select star: insert("select * ")
 select count: insert("select count(*) ")
 
 # query tool
