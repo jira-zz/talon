@@ -1,3 +1,0 @@
-key(ctrl-alt-f9): speech.disable()
-key(ctrl-alt-f8): speech.enable()
-key(ctrl-alt-f11): speech.enable()
